@@ -1,0 +1,39 @@
+/* 初始化 */
+*{ margin: 0;padding: 0;}
+li{ list-style: none;}
+a{ text-decoration: none;}
+a:hover{ color: #e9321e;}
+/* 公共部分 */
+body{ font-family: '微软雅黑';font-size: 12px;color: #000000;}
+.clearfix:before,.clearfix:after{ content: '';display: inline;}
+.clearfix:after{ clear: both;}
+.layer{ width: 100%; margin: 0 auto;}
+/* 头部 */
+.top{ width: 1004px;height:1007px;border-top: 1px solid #909090;margin: 0 auto;border-bottom: 7px solid #e2e1e1;}
+.logo img{ float: left;width: 230px;height: 84px;display: inline;}
+.map{ float: right;width: 771px;height: 84px;background: url(../img/联系我们_03.png) no-repeat ;}
+.websit{ float: left;margin-left: 636px;height: 28px;margin-top: 15px;}
+ul{ list-style: none;}
+.nav li{ list-style: none;float: left;margin: 10px 22px 11px 22px;}
+/* flash */
+.web_map{ float:right; width:auto; padding-right:2px; height:40px; line-height:40px; color:#a3a2a2;}
+.web_map a{color:#a3a2a2; margin:0px 10px;}
+.web_map a:hover{color:#e8240f;}
+.flash img{width: 1004px; height:340px;margin: 0 auto;}
+.contect{ width: 1004px;height: 57px;background: url(../img/联系我们_31.png) no-repeat;margin-top: -7px; margin-bottom: 9px;}
+.lanmu{ float: left;margin: 35px 42px 8px 28px;}
+.position{ float: right;}
+.nnn{float: left; font-size: 13px;color: #1952c6;margin-right: 16px;}
+.word{float: right; color: #9a9a9a;}
+.position{float: left; margin: 27px 57px 17px 44px;font-family: '宋体';color: #191919;font-weight: bold;}
+.link{float: left; width: 189px;height: auto;}
+.link li{ background: url(../img/main_nav_bg.png) no-repeat;margin-top: 5px;font-size: 12px; text-align: center;}
+.picture{ width: 189px;height: 72px;margin-top: 5px;}
+.text{ width: 189px;height: 173px;margin-top: 5px;}
+.text ul{ line-height: 26px;font-size: 12px;font-family: '宋体';color: #000000;}
+.class{ float: left;margin-left: 59px;}
+.add{margin: 17px 0 11px 0;}
+.text2{ margin-top: 3px;line-height: 27px;}
+.foot1{ float: none;text-align: center;margin-top: 8px;line-height: 32px;}
+.foot2{ float: none; text-align: center; line-height: 14px;}
+.add{ font-size: 12px;font-family: '宋体';color: #a4a2a2;}
